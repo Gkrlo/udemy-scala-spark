@@ -1,2 +1,2 @@
-# udemy-scala-spark-ml
-Some udemy scala-spark-ml course
+# udemy-scala-spark
+Some udemy scala-spark course
