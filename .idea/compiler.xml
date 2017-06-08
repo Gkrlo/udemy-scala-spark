@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="classification" />
+        <module name="linear-regression" />
+      </profile>
+      <profile name="Annotation profile for linear-regression" enabled="true">
+        <sourceOutputDir name="linear-regression/target/generated-sources/annotations" />
+        <sourceTestOutputDir name="linear-regression/target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="udemy-scala-spark" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="classification" target="1.5" />
+      <module name="linear-regression" target="1.5" />
+      <module name="udemy-scala-spark" target="1.5" />
+    </bytecodeTargetLevel>
+  </component>
+</project>

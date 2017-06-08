@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/classification/classification.iml" filepath="$PROJECT_DIR$/classification/classification.iml" />
+      <module fileurl="file://$PROJECT_DIR$/linear-regression/linear-regression.iml" filepath="$PROJECT_DIR$/linear-regression/linear-regression.iml" />
+    </modules>
+  </component>
+</project>
