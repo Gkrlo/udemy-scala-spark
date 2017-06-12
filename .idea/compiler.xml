@@ -8,6 +8,8 @@
         <outputRelativeToContentRoot value="true" />
         <module name="classification" />
         <module name="linear-regression" />
+        <module name="linear-regression-csv" />
+        <module name="linear-regression-project" />
       </profile>
       <profile name="Annotation profile for linear-regression" enabled="true">
         <sourceOutputDir name="linear-regression/target/generated-sources/annotations" />
@@ -19,6 +21,8 @@
     <bytecodeTargetLevel>
       <module name="classification" target="1.5" />
       <module name="linear-regression" target="1.5" />
+      <module name="linear-regression-csv" target="1.5" />
+      <module name="linear-regression-project" target="1.5" />
       <module name="udemy-scala-spark" target="1.5" />
     </bytecodeTargetLevel>
   </component>
