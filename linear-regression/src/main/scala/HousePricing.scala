@@ -1,7 +1,7 @@
-import org.apache.spark.sql.SparkSession
-import org.apache.spark.ml.regression.LinearRegression
-import org.apache.spark.ml.feature.VectorAssembler
 import org.apache.log4j._
+import org.apache.spark.ml.feature.VectorAssembler
+import org.apache.spark.ml.regression.LinearRegression
+import org.apache.spark.sql.SparkSession
 
 object HousePricing extends App {
 

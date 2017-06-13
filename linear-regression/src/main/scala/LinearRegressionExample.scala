@@ -1,7 +1,7 @@
 import org.apache.spark.sql.SparkSession
 import org.apache.spark.ml.regression.LinearRegression
 
-object LinearRegression extends App {
+object LinearRegressionExample extends App {
 
   val spark = SparkSession.builder().appName("LinearRegression")
                                     .master("local[2]")

@@ -4,8 +4,6 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/classification/classification.iml" filepath="$PROJECT_DIR$/classification/classification.iml" />
       <module fileurl="file://$PROJECT_DIR$/linear-regression/linear-regression.iml" filepath="$PROJECT_DIR$/linear-regression/linear-regression.iml" />
-      <module fileurl="file://$PROJECT_DIR$/linear-regression-csv/linear-regression-csv.iml" filepath="$PROJECT_DIR$/linear-regression-csv/linear-regression-csv.iml" />
-      <module fileurl="file://$PROJECT_DIR$/linear-regression-project/linear-regression-project.iml" filepath="$PROJECT_DIR$/linear-regression-project/linear-regression-project.iml" />
     </modules>
   </component>
 </project>
