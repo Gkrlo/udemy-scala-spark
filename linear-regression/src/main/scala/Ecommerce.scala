@@ -10,7 +10,7 @@ object Ecommerce extends App {
   val spark = SparkSession.builder().appName("Linear Regression Project")
                                     .master("local[2]").getOrCreate()
 
-  val filePath = "datasets/Ecommerce.csv"
+  val filePath = "datasets/ecommerce.csv"
 
   val data = spark.read.option("header", "true").option("inferSchema", "true").format("csv").load(filePath)
 

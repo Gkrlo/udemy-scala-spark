@@ -11,7 +11,7 @@ object HousePricing extends App {
 
   val data = spark.read.option("header","true")
                        .option("inferSchema", "true")
-                       .format("csv").load("datasets/USA_Housing.csv")
+                       .format("csv").load("datasets/usa_housing.csv")
 
   // Show columns
   data.columns.foreach(println)
