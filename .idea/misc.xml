@@ -5,6 +5,8 @@
       <list>
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/classification/pom.xml" />
+        <option value="$PROJECT_DIR$/model-evaluation/pom.xml" />
+        <option value="$PROJECT_DIR$/clustering/pom.xml" />
       </list>
     </option>
   </component>

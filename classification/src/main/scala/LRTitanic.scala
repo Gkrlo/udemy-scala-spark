@@ -2,12 +2,11 @@
 import org.apache.spark.ml.classification.LogisticRegression
 import org.apache.spark.sql.SparkSession
 import org.apache.log4j._
-import org.apache.spark.ml.feature.{OneHotEncoder, StringIndexer, VectorAssembler, VectorIndexer}
+import org.apache.spark.ml.feature.{OneHotEncoder, StringIndexer, VectorAssembler}
 import org.apache.spark.ml.Pipeline
-import org.apache.spark.ml.evaluation.RegressionEvaluator
 import org.apache.spark.mllib.evaluation.MulticlassMetrics
 
-object LogisticRegressionTitanic extends App {
+object LRTitanic extends App {
 
   Logger.getLogger("org").setLevel(Level.ERROR)
 
@@ -40,7 +39,7 @@ object LogisticRegressionTitanic extends App {
 
   // (label, features)
   val assembler = new VectorAssembler().setInputCols(Array("Pclass", "SexVec", "Age", "SibSp", "Parch", "Fare", "EmbarkedVec"))
-                                          .setOutputCol("features")
+                                       .setOutputCol("features")
 
   //Building model
   val Array(training, test) = logRegData.randomSplit(Array(0.7, 0.3), seed=12345)
@@ -58,7 +57,7 @@ object LogisticRegressionTitanic extends App {
 
   val metrics = new MulticlassMetrics(predictionsAndLabels)
 
-  println("CONFUSION MARIX: ")
+  println("CONFUSION MATRIX: ")
   println(metrics.confusionMatrix)
 
 }

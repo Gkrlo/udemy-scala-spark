@@ -2,7 +2,7 @@ import org.apache.spark.ml.classification.LogisticRegression
 import org.apache.spark.sql.SparkSession
 
 
-object LogisticRegressionExample extends App {
+object LRExample extends App {
 
   val spark = SparkSession.builder().appName("LogisticRegression").master("local[2]").getOrCreate()
 
